@@ -1,0 +1,10 @@
+{
+  "credentials": {
+    "tenant_id": "sba4-d5135d69294bfb-ed28ea02ee9c",
+    "tenant_id_full": "b392158c-7752-447a-aba4-d5135d69294b_3c766f53-56c5-4ecc-9ffb-ed28ea02ee9c",
+    "cluster_master_url": "https://169.54.219.20:8443",
+    "instance_id": "b392158c-7752-447a-aba4-d5135d69294b",
+    "tenant_secret": "805a909b-6af1-4096-850a-9070eb23c598",
+    "plan": "ibm.SparkService.PayGoPersonal"
+  }
+}

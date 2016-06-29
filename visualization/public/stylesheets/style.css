@@ -1,0 +1,29 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    width: 260px;
+    overflow-x: hidden;
+}
+
+.dept {
+    width: 10px;
+}

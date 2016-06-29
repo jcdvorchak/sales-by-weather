@@ -1,0 +1,29 @@
+extends layout
+                      
+block scripts
+    script(type='text/javascript', src='/lib/d3.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='https://code.jquery.com/jquery-1.10.2.js')
+    script(type='text/javascript', src='lib/bootstrap/js/bootstrap.min.js')
+    script(type='text/javascript', src='/js/main.js')
+    
+block dropdowns
+    div.btn-group
+      #location.dropdown.pull-left
+        button#menu1.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', onclick="locationDropdown();dropdownLocClick('locationlist');")
+          | Location  
+          span.caret
+          span.sr-only Toggle Dropdown
+        ul#locationlist.dropdown-menu.scrollable-menu(role='menu', aria-labelledby='menu1')
+    div.btn-group
+      #department.dropdown.pull-left
+        button#menu1.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', onclick="departmentDropdown();dropdownDeptClick('departmentlist');")
+          | Department 
+          span.caret
+          span.sr-only Toggle Dropdown
+        ul#departmentlist.dropdown-menu.dept.scrollable-menu(role='menu', aria-labelledby='menu1')
+    text#filterDescription 
+      
+      
+      
+      
